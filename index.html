@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-profile-card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Profile Card Generator</h1>
+    </div>
+
+    <div class="form-section">
+        <input type="text" id="name" placeholder="Enter Name" required />
+        <input type="number" id="age" placeholder="Enter Age" required />
+        <input type="text" id="course" placeholder="Enter Course" required />
+        <input type="email" id="email" placeholder="Enter Email" required />
+        <input type="text" id="image" placeholder="Enter Image URL (optional)" />
+        <button onclick="addStudent()">Add Student</button>
+    </div>
+
+    <div class="container" id="cardContainer"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
